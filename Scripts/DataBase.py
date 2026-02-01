@@ -10,4 +10,5 @@ try:
     df.to_sql('staging_imoveis', engine, if_exists='replace', index=False)
     print("✅ Dados brutos enviados ao Neon PostgreSQL!")
 except Exception as e:
+
     print(f"Erro: {e}")
