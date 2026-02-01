@@ -1,4 +1,3 @@
-
 import re
 
 def limpar_dados(linha): 
